@@ -89,4 +89,3 @@ O Sistema de Vendas oferece uma estrutura flexível e extensível para processam
 
 ---
 
-Esta documentação fornece uma visão geral do Sistema de Vendas, explicando suas funcionalidades, estrutura, princípios SOLID aplicados e exemplos de uso.
