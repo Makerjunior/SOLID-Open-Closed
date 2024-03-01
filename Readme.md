@@ -1,4 +1,5 @@
-Este código segue o princípio OCP (Princípio Aberto/Fechado) ao permitir que novos tipos de produtos sejam adicionados sem modificar a classe `Caixa2`. Vamos analisar como o código atende ao OCP:
+# OCP (Princípio Aberto/Fechado) 
+Este código segue o princípio OCP (Princípio Aberto/Fechado) ao permitir que novos tipos de produtos sejam adicionados sem modificar a classe Caixa2. Vamos analisar como o código atende ao OCP:ao permitir que novos tipos de produtos sejam adicionados sem modificar a classe `Caixa2`. Vamos analisar como o código atende ao OCP:
 
 1. **Extensão sem Modificação**: A classe `Caixa2` é responsável por processar as vendas e depende de uma abstração do repositório de estoque (`IRepositorioEstoque`). Isso permite que diferentes implementações do repositório de estoque sejam injetadas na classe `Caixa2` sem modificar seu código.
 
